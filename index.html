@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TV Show Project - Part 1/3</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="	https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid p-3 mb-2 bg-secondary text-white">
+          <a class="navbar-brand" href="#">tv-show</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a
+                  class="nav-link active link-dark"
+                  aria-current="page"
+                  href="#"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link link-dark" href="#">Movies</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link link-dark" href="#">Animation</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled link-dark">Serial</a>
+              </li>
+            </ul>
+            <!-- <form class="d-flex" role="search"> -->
+            <input
+              class="search-item me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <h4></h4>
+            <!-- </form> -->
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section>
+        <div>
+          <div class="card mb-3" style="max-width: 100%">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img
+                  class="poster img-fluid rounded-start"
+                  height="120"
+                  width="80"
+                  alt="True Detective Poster"
+                  src="https://m.media-amazon.com/images/M/MV5BMmRlYmE0Y2UtNDk2Yi00NzczLWEwZTEtZmE2OTcyYzcxYmU5XkEyXkFqcGdeQXVyNTMxMjgxMzA@._V1_UY98_CR1,0,67,98_AL_.jpg"
+                />
+              </div>
+              <div class="col-md-8">
+                <div class="card-body d-flex align-self-end">
+                  <h3 calss="">
+                    <a href="#" class="a-color">True Detective</a>
+                    <span class="nobr"> (2014–2019) </span>
+                  </h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <label for="bySeason">Season:</label>
+        <select id="bySeason" class="current">
+          <option id="difult" value="All episodes">All episodes</option>
+        </select>
+      </section>
+      <!-- <section class="container-fluid my-4">
+        <section class="row">
+          <section class="col-12 col-sm-6 col-lg-3 my-3">
+            <div class="card border-0 shadow">
+              <img
+                src="https://static.tvmaze.com/uploads/images/medium_landscape/8/21961.jpg"
+                class="card-img-top"
+                alt="1"
+              />
+              <div class="card-body">
+                <div class="cards-name-episode">
+                  <h5 class="card-title">The Long Bright Dark</h5>
+                  <a href="#" class="btn btn-danger">S01E01</a>
+                </div>
+                <p class="card-text">
+                  Former Louisiana State CID partners Martin Hart and Rustin
+                  Cohle give separate statements to a pair of investigators
+                  about the murder of a prostitute, Dora Lange, 17 years
+                  earlier. As they look back, details of the crime, replete with
+                  occult overtones, are accompanied by insights into the
+                  detectives' volatile partnership and personal lives.
+                </p>
+              </div>
+            </div>
+          </section>
+      
+
+          </section>
+      </section> -->
+    </main>
+
+    <footer class="bg-footer text-dark">
+      <section class="container py-5">
+        <section class="row">
+          <section class="col-12 col-lg-8">
+            <h3>about us</h3>
+            <p class="text-justify">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Distinctio dolorum, nemo ut saepe animi placeat voluptatibus ab
+              soluta obcaecati? Rem sapiente excepturi placeat qui earum sint
+              culpa libero fugiat incidunt debitis minus blanditiis numquam
+              molestias nihil beatae explicabo sunt temporibus enim, minima unde
+              commodi quisquam vero? Quas quo voluptate veritatis ipsa soluta,
+              natus saepe eius quod molestias voluptas asperiores, vel, eaque
+              ducimus? Fuga delectus consequatur distinctio officiis ad
+              accusamus dolores itaque, facere consectetur, exercitationem,
+              suscipit corrupti quod? Maiores laborum officia et impedit tenetur
+              commodi expedita nulla aut quisquam voluptates at, quod esse
+              deleniti quasi sapiente, adipisci veritatis ullam nisi sit.
+            </p>
+          </section>
+          <section class="col-12 col-lg-4 text-center mt-5 mt-sm-0">
+            <p>Follow us on social networks</p>
+            <div class="d-flex d-flex justify-content-around mt-2 px-5 fs-4">
+              <i class="fa-brands fa-telegram"></i>
+              <i class="fa-brands fa-linkedin"></i>
+              <i class="fa-brands fa-instagram"></i>
+              <i class="fa-brands fa-twitter"></i>
+            </div>
+          </section>
+        </section>
+      </section>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./app.js"></script>
+  </body>
+</html>
