@@ -1,0 +1,28 @@
+.cards-name-episode {
+  display: flex;
+  justify-content: space-between;
+}
+
+.current {
+  width: 10em;
+}
+.bg-footer {
+  background-color: #6c757d;
+}
+.picture-name {
+  display: flex;
+  justify-content: space-around !important;
+}
+.poster {
+  float: left;
+  margin-right: 10px;
+}
+.a-color {
+  color: dimgray;
+}
+.nobr {
+  color: #666666;
+  font-weight: normal;
+  font-size: 13px;
+  white-space: normal;
+}
